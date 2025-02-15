@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84D052882CAF03AE003975FF /* solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84D052872CAF03A7003975FF /* solution.cpp */; };
-		84D0528A2CAF0F92003975FF /* starter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84D052892CAF0F8E003975FF /* starter.cpp */; };
 		DBDF1B532323DE3F007CECB1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBDF1B522323DE3F007CECB1 /* main.cpp */; };
 		DBDF1B5E2323DE8D007CECB1 /* ShaderProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBDF1B5D2323DE8D007CECB1 /* ShaderProgram.cpp */; };
 		DBDF1B612323DE9E007CECB1 /* shaders in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBDF1B5C2323DE8D007CECB1 /* shaders */; };
@@ -33,8 +31,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		84D052872CAF03A7003975FF /* solution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = solution.cpp; sourceTree = "<group>"; };
-		84D052892CAF0F8E003975FF /* starter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = starter.cpp; sourceTree = "<group>"; };
 		C2AB0BAE2D6116CD005DE628 /* guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guitar.png; sourceTree = "<group>"; };
 		C2DC9DF32D60ED82008A79EC /* bob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bob.png; sourceTree = "<group>"; };
 		C2DC9DF42D60ED8C008A79EC /* joan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joan.png; sourceTree = "<group>"; };
@@ -68,15 +64,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		84D052852CAF0398003975FF /* solution */ = {
-			isa = PBXGroup;
-			children = (
-				84D052892CAF0F8E003975FF /* starter.cpp */,
-				84D052872CAF03A7003975FF /* solution.cpp */,
-			);
-			path = solution;
-			sourceTree = "<group>";
-		};
 		DBDF1B462323DE3F007CECB1 = {
 			isa = PBXGroup;
 			children = (
@@ -97,7 +84,6 @@
 		DBDF1B512323DE3F007CECB1 /* SDLProject */ = {
 			isa = PBXGroup;
 			children = (
-				84D052852CAF0398003975FF /* solution */,
 				C2DC9DF32D60ED82008A79EC /* bob.png */,
 				C2DC9DF42D60ED8C008A79EC /* joan.png */,
 				C2AB0BAE2D6116CD005DE628 /* guitar.png */,
@@ -180,8 +166,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBDF1B532323DE3F007CECB1 /* main.cpp in Sources */,
-				84D0528A2CAF0F92003975FF /* starter.cpp in Sources */,
-				84D052882CAF03AE003975FF /* solution.cpp in Sources */,
 				DBDF1B5E2323DE8D007CECB1 /* ShaderProgram.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
